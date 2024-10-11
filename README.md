@@ -1,7 +1,3 @@
-Here's a README template for your Python project, which outlines its functionality, installation instructions, usage, and other relevant details:
-
-```markdown
-```
 # 자동 이미지 게시기 (Automated Image Poster)
 
 이 프로젝트는 OpenAI의 DALL-E와 Instagram API를 사용하여 자동으로 이미지를 생성하고 Instagram에 게시하는 스크립트입니다. 이 스크립트는 랜덤으로 선택된 동물, 사물, 행동, 장소를 조합하여 캡션을 생성하고, 생성된 이미지를 저장한 후 Instagram에 게시합니다.
@@ -45,5 +41,3 @@ Here's a README template for your Python project, which outlines its functionali
 
 ## 면책 조항
 이 프로젝트는 교육 및 실험 목적으로만 제공됩니다. 실제로 API를 사용하여 콘텐츠를 게시할 때는 Facebook 및 Instagram의 정책을 준수해야 합니다.
-```
-
