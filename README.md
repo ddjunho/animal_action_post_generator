@@ -28,24 +28,12 @@ Here's a README template for your Python project, which outlines its functionali
    pip install requests openai
    ```
 3. Facebook과 Instagram API에 대한 인증 정보를 `creds.py` 파일에 추가:
-   ```python
-   def getCreds():
-       return {
-           'client_id': 'YOUR_CLIENT_ID',
-           'client_secret': 'YOUR_CLIENT_SECRET',
-           'access_token': 'YOUR_ACCESS_TOKEN',
-           'post_url': 'YOUR_INSTAGRAM_POST_URL',
-           'instagram_business_account': 'YOUR_INSTAGRAM_BUSINESS_ACCOUNT_ID',
-           'page_id': 'YOUR_FACEBOOK_PAGE_ID',
-           'open_ai_key': 'YOUR_OPENAI_API_KEY',
-           'model': 'gpt-4o-mini'  # 추가된 모델 정보
-       }
-   ```
+  ㄴ
 
 ## 사용법
 1. 스크립트를 실행합니다:
    ```bash
-   python script_name.py
+   python animal_action_post_generator.py
    ```
    이 스크립트는 자동으로 이미지를 생성하고 Instagram에 게시합니다.
 
@@ -59,6 +47,3 @@ Here's a README template for your Python project, which outlines its functionali
 이 프로젝트는 교육 및 실험 목적으로만 제공됩니다. 실제로 API를 사용하여 콘텐츠를 게시할 때는 Facebook 및 Instagram의 정책을 준수해야 합니다.
 ```
 
-### Notes
-- Replace `script_name.py` with the actual name of your Python script.
-- Adjust any sections as needed to better reflect your project's specifics or to add additional information. Let me know if you need any further modifications or additions!
