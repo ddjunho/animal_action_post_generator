@@ -16,7 +16,7 @@
 - Instagram API를 사용하여 이미지를 게시
 - 게시할 이미지와 캡션에 대한 해시태그 자동 생성
 - 이미지 파일을 로컬 디스크에 저장
-
+![Example Image](https://github.com/ddjunho/animal_action_post_generator/blob/main/%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%83%9D%EC%84%B1/%EB%8B%A4%EB%9E%8C%EC%A5%90%EB%8A%94_%ED%8C%90%ED%83%80%EC%A7%80_%EC%88%B2%EC%97%90%EC%84%9C_%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A5%BC_%EC%95%89%EC%95%84_%EC%9E%88%EB%8B%A4..png)
 ## 설치
 1. Python 3.7 이상 설치
 2. 필요 라이브러리 설치:
@@ -35,6 +35,7 @@
 
 ## 환경 변수 설정
 스크립트를 실행하기 전에 `creds.py` 파일을 설정하여 필요한 API 키와 기타 정보를 포함해야 합니다. 모든 정보는 [Facebook 개발자 문서](https://developers.facebook.com/docs/)와 [OpenAI API 문서](https://platform.openai.com/docs/)에서 확인할 수 있습니다.
+
 
 ## 기여
 기여를 원하시면, 이 리포지토리를 포크하고 변경 사항을 풀 리퀘스트로 제출해주세요.
