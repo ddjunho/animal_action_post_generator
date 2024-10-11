@@ -10,5 +10,6 @@ def getCreds():
     creds['page_id'] = "xxxx"
     creds['instagram_business_account'] = "xxxx"
     creds['post_url'] = creds['endpoint_base'] + creds['instagram_business_account'] + "/media"
+    creds['model'] = "gpt-4o-mini"  # 추가된 모델 정보
     creds['open_ai_key'] = "sk-xxxx"
     return creds
